@@ -17,6 +17,7 @@ app.listen(2000, ()=>{
     console.log('server started on port 2000');
 });
 // hello
+// kaise ho
 app.use('/api',userRoutes);
 
 app.get('/', (req,res)=>{
