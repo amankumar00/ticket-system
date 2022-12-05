@@ -2,19 +2,20 @@
 
 
 ## User end points:
--Create User
+
+###### Create User
     localhost:2000/api/new
--Update User
+###### Update User
     localhost:2000/api/update/:id
--Delete User
+###### Delete User
     localhost:2000/api/delete/:id
 
 ## Ticket End-Points
--Create Ticket
+###### Create Ticket
     localhost:2000/api/newTicket
--Delete Ticket
+###### Delete Ticket
     localhost:2000/api/deleteTicket/:ticketId
--Assign Ticket
+###### Assign Ticket
     localhost:2000/api/assignTicketTo/:ticketId
--Mark As Done
+###### Mark As Done
     localhost:2000/api/setToDone/:ticketId
