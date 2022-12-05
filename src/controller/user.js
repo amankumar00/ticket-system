@@ -35,7 +35,7 @@ const updateUser = async (req,res) =>{
 const deleteUser = async (req,res) =>{
     try{
     await User.findOneAndDelete({uid : req.params.uid})
-    return res.status(200).json({"message": "User Deleted"})
+    return res.status(200).json({"message": "User Deleted~"})
     }
     catch(e){
         return res.status(400).json({"message": "Something went wrong"})
