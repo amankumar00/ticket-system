@@ -1,4 +1,4 @@
-const mongoose = require('mongoose')
+const mongoose = require('mongoose');
 
 const ticketSchema = new mongoose.Schema({
     ticketId:{
@@ -17,7 +17,8 @@ const ticketSchema = new mongoose.Schema({
         type:String,
         enum: ["Todo","In-Progress","Done"],
         default: "Todo"
-    }
+    },
+   
 });
 
 module.exports = mongoose.model('Ticket',ticketSchema);
