@@ -14,7 +14,11 @@ const userSchema = new mongoose.Schema({
         type: String,
         required:true,
         unique:true
-    }
+    },
+    assignedTicket:[{
+        type: mongoose.Schema.Types.ObjectId,
+        ref : 'Ticket'
+    }]
 })
 
 module.exports = mongoose.model('User',userSchema);

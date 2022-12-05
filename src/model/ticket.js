@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-
+// Hello world
 const ticketSchema = new mongoose.Schema({
     ticketId:{
         type: String,
